@@ -15,4 +15,4 @@ class RegistrationSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Registration
-        fields = ["full_name", "email", "phone_number","registered_at"]
+        fields = ["full_name", "email", "phone_number","linked_event","registered_at"]
